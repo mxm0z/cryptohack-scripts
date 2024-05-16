@@ -24,5 +24,6 @@ import (
 func main() {
 	hexadecimal := "63727970746f7b336e633064316e365f346c6c5f3768335f7734795f6430776e7d"
 	data, _ := hex.DecodeString(hexadecimal)
+	//data, _ := hex.DecodeString(hexadecimal)
 	fmt.Println(string(data))
 }
